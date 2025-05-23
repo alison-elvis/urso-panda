@@ -23,7 +23,7 @@ img {
 
 h1 {
   text-align: center;
-  font-size: clamp(2rem, 10vw, 5rem);
+  font-size: clamp(2rem, 10vw, 6rem);
   line-height: 1.1;
 }
 
@@ -38,6 +38,7 @@ h2 {
 .teal-bg {
   background-color: teal;
   color: linen;
+  padding: 1rem;
   border: 10px solid rgb(20, 118, 135);
 }
 
