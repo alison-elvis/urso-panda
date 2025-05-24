@@ -23,12 +23,21 @@ img {
 
 h1 {
   text-align: center;
-  font-size: clamp(2rem, 10vw, 6rem);
+  font-size: 3rem;
   line-height: 1.1;
+
+  @media (width > 720px) {
+    font-size: 5rem;
+  }
 }
 
 h2 {
   color: seagreen;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
 }
 
 .teal-text {
